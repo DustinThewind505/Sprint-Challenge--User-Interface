@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sprint Challenge - About</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="img/lambda-black.png">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a id="selected">Contact</a>
+        </nav>
+        <h1>Tell us about you</h1>
+        <form>
+            <label id="name-label" for="name">*Name
+                <input id="name" type="text" placeholder="Enter name" required>
+            </label>
+            <label id="email-label" for="email">*Email
+                <input id="email" type="email" placeholder="Enter Email" required>
+            </label>
+            <label id="number-label" for="number">*Life Expectancy
+                <input id="number" type="number" min="69" max="420" placeholder="Age" required>
+            </label>
+
+            <label id="dropdown-label">How are you <strong><u>really</u></strong> doing?</label>
+            <select id="dropdown">
+                <option value="great">Great</option>
+                <option value="swell">Swell</option>
+                <option value="fine-thankyou">Fine thank you</option>
+                <option value="meh">Meh</option>
+            </select><br><br>
+
+            <label>Surveys are awsome<input type="radio" name="radio-buttons" class="userOpinion"
+                    value="Surveys are great" checked>
+            </label>
+            <label>Surveys are great<input type="radio" name="radio-buttons" class="userOpinion"
+                    value="Surveys are whatev'">
+            </label>
+            <label>Surveys are whatev'<input type="radio" name="radio-buttons" class="userOpinion" value="Surveys suck">
+            </label>
+
+
+            <ul>Pets
+                <li><label>
+                        <input type="checkbox" name="checkbox-buttons" value="exile">
+                    </label>Dogs</li>
+                <li><label>
+                        <input type="checkbox" name="checkbox-buttons" value="exile">
+                    </label>Zebras</li>
+                <li><label>
+                        <input type="checkbox" name="checkbox-buttons" value="or exile">
+                    </label>Falcon</li>
+            </ul>
+            <textarea placeholder="Additional feelings"></textarea>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        <footer>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Blog</a>
+                    <a id="selected">Contact</a>
+                </nav>
+            </footer>
+    </div><!-- container -->
+</body>
+</html>

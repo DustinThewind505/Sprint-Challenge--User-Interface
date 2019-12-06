@@ -80,8 +80,8 @@ nav a{
 nav a:hover {
     text-decoration: underline;
 	color: black;
-	font-size: medium;
     transition: .5s;
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;
 }
 
 #selected {
@@ -267,9 +267,58 @@ button {
 }
 
 button:hover {
-    font-size: large;
+    background-color: black;
+    color: white;
 }
 
 .bottom-section {
     margin-bottom: 4%;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=STRECTCH GOALS=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ====contact page==== */
+form {
+    border: double;
+    border-radius: 3px;
+    width: 100%;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #dropdown {
+    border-radius: 100px;
+  }
+  
+  label {
+    padding: 1%;
+  }
+  
+  ul {
+      width:25%;
+      padding-top: 3% 0;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  input {
+    height: 20px;
+  }
+  
+  #dropdown {
+    height: 2%;
+    width: 400px;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 200px;
+    height: 100px;
+  }
+
+  /* ====meadia query==== */
