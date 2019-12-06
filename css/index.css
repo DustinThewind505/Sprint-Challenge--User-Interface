@@ -61,6 +61,42 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/* ==============first page================== */
+nav {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 2%;
+    margin-left: 17%;
+    margin-bottom: 1.5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+nav a:hover {
+    text-decoration: underline;
+	color: black;
+	font-size: medium;
+    transition: .5s;
+}
+
+#selected {
+    color: grey;
+    cursor: default;
+    text-decoration: none;
+    transition: none;
+    font-size: small;
+}
+
+/* ====header==== */
+header img {
+    margin-bottom: 1.5%;
+}
 
 p {
     line-height: 1.4;
@@ -84,7 +120,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* ====middle section==== */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +140,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +147,47 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* ====bottom section==== */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +214,14 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
 }
