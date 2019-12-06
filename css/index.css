@@ -61,6 +61,41 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/* ==============first page================== */
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 2%;
+    margin-bottom: 1.5%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+nav a:hover {
+    text-decoration: underline;
+	color: black;
+    transition: .5s;
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;
+}
+
+#selected {
+    color: grey;
+    cursor: default;
+    text-decoration: none;
+    transition: none;
+    font-size: small;
+}
+
+/* ====header==== */
+header img {
+    margin-bottom: 1.5%;
+}
 
 p {
     line-height: 1.4;
@@ -84,7 +119,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* ====middle section==== */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +139,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +146,47 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* ====bottom section==== */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +213,112 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    color: white;
+}
+
+/* ===============================second page================================= */
+.about-page {
+    line-height: 1.5;
+    font-weight: 550;
+}
+
+header {
+    padding-bottom: 4%;
+}
+
+/* ====middle section==== */
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
+    padding-bottom: 4%;
+}
+
+.middle-section section {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:;
+}
+
+.middle-section h2 {
+    margin-top: 2%;
+}
+
+button {
+    width: 33%;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 4% 0 4%;
+    padding: 5px 0;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.bottom-section {
+    margin-bottom: 4%;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=STRECTCH GOALS=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ====contact page==== */
+form {
+    border: double;
+    border-radius: 3px;
+    width: 100%;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #dropdown {
+    border-radius: 100px;
+  }
+  
+  label {
+    padding: 1%;
+  }
+  
+  ul {
+      width:25%;
+      padding-top: 3% 0;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  input {
+    height: 20px;
+  }
+  
+  #dropdown {
+    height: 2%;
+    width: 400px;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 200px;
+    height: 100px;
+  }
+
+  /* ====meadia query==== */
